@@ -6,6 +6,6 @@
 export OPENFAAS_TEMPLATE_URL="git@github.com:Rblock919/openfaas-templates.git"
 ```
 
-### Run the following command to pull down these templates
+### Run the following command to pull down these template(s)
 
 `faas-cli template pull`
