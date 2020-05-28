@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "declaration": true,
+    "removeComments": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "target": "es2017",
+    "sourceMap": true,
+    "esModuleInterop": true,
+    "outDir": "./dist",
+    "baseUrl": "./",
+    "incremental": true,
+    "paths": {
+      "@interfaces/*" : [ "interfaces/*"],
+      "@middleware/*" : [ "middleware/*"],
+      "@modules/*" : [ "modules/*"],
+    }
+  },
+  "include": ["**/*.ts"],
+  "exclude": ["**/node_modules", "**/dist"]
+}
