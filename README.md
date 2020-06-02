@@ -35,3 +35,5 @@ faas-cli push -f <NAME_OF_NEW_FUNCTION>.yml
 ```shell
 faas-cli deploy -f <NAME_OF_NEW_FUNCTION>.yml
 ```
+
+> Note: Alternatively to running build -> push -> deploy you can just run `faas-cli up -f <NAME_OF_NEW_FUNCTION>.yml` which will execute all 3 commands in the listed sequence
