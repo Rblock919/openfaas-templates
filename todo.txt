@@ -1,2 +1,3 @@
 - incorporate express wrapper onto armhf node template (also arm64)
 - incorporate typescript into the armhf node template (also arm64)
+- add editorconfigs and eslint to all templates (if it doesn't already exist)
